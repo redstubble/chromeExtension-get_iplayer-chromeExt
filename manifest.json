@@ -1,0 +1,17 @@
+{
+  "name": "A browser action to copy all the selected links in a page",
+  "description": "Copy links",
+  "version": "1.0",
+  "permissions": [
+    "storage", "background", "tabs", "http://*/*", "https://*/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+      "default_title": "Set this page's color.",
+      "default_icon": "icon.png"
+      // "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
